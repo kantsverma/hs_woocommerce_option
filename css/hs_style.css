@@ -1,0 +1,57 @@
+
+	.products li a h3 {
+		display:none ! important;
+	}
+	
+	.button.add_to_cart_button.product_type_subscription {
+		background:linear-gradient(to bottom, #FFFF00 0%, #FFA035 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+		border-color:#000000;
+		border-radius:6px;
+		border-width:1px;
+		box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 0, 0.5) inset;
+		padding:30px 40px;
+	}
+	.woocommerce-page .col2-set .col-1 {
+		padding: 0 65px  ! important;
+		width: 90%  ! important;
+	}
+	.checkout #order_review {
+		margin-left: 50px !important;
+	}
+	
+	.checkout h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.shop_table tbody {
+		display:none !important;
+	}
+	.shop_table .cart-subtotal { 
+		display:none !important;		
+	}
+	.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
+		display:none !important;
+	}
+	#tom_subscription {
+		width:100%;
+	}
+	#tom_subscription h2 {
+		color: #222222;
+		font-size: 27px;
+		font-weight: 300;
+		line-height: normal;
+		padding-bottom: 15px;
+		padding-top: 10px;
+		text-align: center;
+	}
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+		margin-left:40% !important;
+	}
+	
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	
+		.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+			margin-left:20% !important;
+		}	
+		
+	}

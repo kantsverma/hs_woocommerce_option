@@ -1,0 +1,61 @@
+=== WooCommerce Checkout Extra options ===
+Contributors: kantverma,vinitaverma
+Donate link: http://example.com/
+Tags: wooCommerce, wooCommerce checkout
+Requires at least: 3.0.1
+Tested up to: 3.4
+Stable tag: 4.3
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Customization of wooCommerce plugins using hooks like remove shipping address from checkout.
+
+== Description ==
+
+Customization of wooCommerce plugins using hooks like remove shipping address from checkout rename add to cart button different -2 based on products etc and anything you want to make changes in wooCommerce you can use this plugins and make changes.You can make changes in wooCommerce plugins without editing its core files. 
+
+== Installation ==
+1. Upload `hs_woocommerce_option` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. This plugins will automaticaly remove the shipping address from checkout page and you can edit the file to change the add to cart button.
+
+== Frequently Asked Questions ==
+
+= How the plugins work =
+
+Just activate the plugins and read the wooCommerce document and you can make changes based on your requirements.
+This is a small wooCommerce shortcode based plugins you can make chages by editing its main file. I mostly used the wooCommerce hooks to modified the wooCommerce plugins without chaging any core file of wooCommerce.
+
+== Screenshots ==
+
+1. This is the view of plugins in list of plugings and you can activate it by clicking on activate.
+2. This is the view of checkout page from where we make changes and remove the shipping address etc.
+3. This is the screenshot ot add to cart button where we rename the add to cart button text.
+
+== Changelog ==
+
+= 1.0 =
+* A change since the previous version.
+* Another change.
+
+= 0.5 =
+* List versions from most recent at top to oldest at bottom.
+
+== Upgrade Notice ==
+
+= 1.0 =
+Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
+
+= 0.5 =
+This version fixes a security related bug.  Upgrade immediately.
+
+
+== A brief Markdown Example ==
+
+Ordered list:
+
+1. Modified the WooCommerce Checkout page as per your requirements.
+1. Change the product add to card text name for different name for each product add to cart button.
+1. You can make changes in wooCommerce plugins without any changes in core file of wooCommerce.
+
+
